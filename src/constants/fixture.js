@@ -35,26 +35,26 @@ const TRANSACTIONS_DATA = [
   },
 ];
 
-const ANUAL_FINANCE_STATEMENTS = {
-  2016: {
+const ANUAL_FINANCE_STATEMENTS: {[string | number]: Object} = {
+  [2016]: {
     income: [
-      {x: 'Jul', y: 350},
+      {x: 'Jul', y: 250},
       {x: 'Aug', y: 205},
-      {x: 'Sep', y: 300},
-      {x: 'Oct', y: 250},
-      {x: 'Nov', y: 300},
-      {x: 'Dec', y: 150},
-    ],
-    expense: [
-      {x: 'Jul', y: 450},
-      {x: 'Aug', y: 305},
       {x: 'Sep', y: 400},
-      {x: 'Oct', y: 350},
-      {x: 'Nov', y: 400},
+      {x: 'Oct', y: 150},
+      {x: 'Nov', y: 200},
       {x: 'Dec', y: 350},
     ],
+    expense: [
+      {x: 'Jul', y: 250},
+      {x: 'Aug', y: 105},
+      {x: 'Sep', y: 200},
+      {x: 'Oct', y: 150},
+      {x: 'Nov', y: 200},
+      {x: 'Dec', y: 250},
+    ],
   },
-  2017: {
+  [2017]: {
     income: [
       {x: 'Jul', y: 530},
       {x: 'Aug', y: 305},
@@ -72,25 +72,25 @@ const ANUAL_FINANCE_STATEMENTS = {
       {x: 'Dec', y: 150},
     ],
   },
-  2018: {
+  [2018]: {
     income: [
-      {x: 'Jul', y: 250},
+      {x: 'Jul', y: 350},
       {x: 'Aug', y: 205},
-      {x: 'Sep', y: 400},
-      {x: 'Oct', y: 150},
-      {x: 'Nov', y: 200},
-      {x: 'Dec', y: 350},
+      {x: 'Sep', y: 300},
+      {x: 'Oct', y: 250},
+      {x: 'Nov', y: 300},
+      {x: 'Dec', y: 150},
     ],
     expense: [
-      {x: 'Jul', y: 250},
-      {x: 'Aug', y: 105},
-      {x: 'Sep', y: 200},
-      {x: 'Oct', y: 150},
-      {x: 'Nov', y: 200},
-      {x: 'Dec', y: 250},
+      {x: 'Jul', y: 450},
+      {x: 'Aug', y: 305},
+      {x: 'Sep', y: 400},
+      {x: 'Oct', y: 350},
+      {x: 'Nov', y: 400},
+      {x: 'Dec', y: 350},
     ],
   },
-  2019: {
+  [2019]: {
     income: [
       {x: 'Jul', y: 250},
       {x: 'Aug', y: 105},
@@ -108,22 +108,22 @@ const ANUAL_FINANCE_STATEMENTS = {
       {x: 'Dec', y: 350},
     ],
   },
-  2020: {
+  [2020]: {
     income: [
-      {x: 'Jul', y: 350},
+      {x: 'Jul', y: 150},
       {x: 'Aug', y: 205},
-      {x: 'Sep', y: 300},
-      {x: 'Oct', y: 250},
-      {x: 'Nov', y: 300},
-      {x: 'Dec', y: 150},
-    ],
-    expense: [
-      {x: 'Jul', y: 450},
-      {x: 'Aug', y: 305},
       {x: 'Sep', y: 400},
       {x: 'Oct', y: 350},
-      {x: 'Nov', y: 400},
-      {x: 'Dec', y: 350},
+      {x: 'Nov', y: 500},
+      {x: 'Dec', y: 250},
+    ],
+    expense: [
+      {x: 'Jul', y: 350},
+      {x: 'Aug', y: 105},
+      {x: 'Sep', y: 200},
+      {x: 'Oct', y: 350},
+      {x: 'Nov', y: 300},
+      {x: 'Dec', y: 150},
     ],
   },
 };
